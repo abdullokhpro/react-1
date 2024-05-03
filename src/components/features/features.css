@@ -1,0 +1,38 @@
+.features {
+  padding: 100px 0px;
+}
+
+.features__subtitle {
+  margin-bottom: 7px;
+  font-size: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 20%;
+  color: #dc780b;
+  text-align: center;
+}
+
+.features__title {
+  margin-bottom: 44px;
+  font-size: 31px;
+  text-align: center;
+}
+
+.features__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.features__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 33px;
+}
+
+.features__card__text {
+  max-width: 300px;
+  text-align: center;
+}
